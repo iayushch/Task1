@@ -138,4 +138,23 @@ body {
         flex: 1;
         margin-top: 20px;
     }
+    .features{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .detail {
+        margin-right: 0;
+    }
+
+    .image-container {
+        margin-top: 20px;
+    }
 }
