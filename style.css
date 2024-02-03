@@ -142,6 +142,10 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    .image-tag{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
